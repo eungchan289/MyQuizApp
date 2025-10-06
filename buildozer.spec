@@ -19,6 +19,9 @@ requirements = python3,kivy==2.2.1,pillow
 orientation = portrait
 
 [android]
+# 라이선스 자동 동의
+android.accept_sdk_license = True
+
 # 안드로이드 API 레벨 및 NDK 버전
 android.api = 33
 android.minapi = 21
