@@ -22,6 +22,10 @@ orientation = portrait
 # 라이선스 자동 동의
 android.accept_sdk_license = True
 
+# 안드로이드 빌드 도구 버전 지정 (새로 추가)
+android.build_tools = 34.0.0
+android.platform = 34
+
 # 안드로이드 API 레벨 및 NDK 버전
 android.api = 33
 android.minapi = 21
