@@ -23,6 +23,9 @@ jobs:
         pip install buildozer cython==0.29.34
         echo "$HOME/.local/bin" >> $GITHUB_PATH
     
+    - name: Clean previous builds
+      run: buildozer appclean
+
     - name: Accept SDK licenses
       run: yes | /home/runner/.buildozer/android/platform/android-sdk/cmdline-tools/latest/bin/sdkmanager --licenses || true
 
